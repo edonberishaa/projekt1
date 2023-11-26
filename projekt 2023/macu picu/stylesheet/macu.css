@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  
+    
+ 
+}
+li a.macu{
+    color: rgb(148, 137, 137);
+}
+#macu{
+    background-color: #A2B5BB;
+  /*  background:url(../images/free-photo-of-machu-picchu-in-peru.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    */
+
+}
+header{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+   
+    
+}
+.navbar{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1px auto;
+}
+p{
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+   
+}
+.navbar ul{
+    margin-left: -45px;
+    padding-right: 32px;
+    padding-left: 20px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a{
+    font-size: 18px;
+    color:brown;
+    font-weight:600;
+    text-decoration: none;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 20px;
+  
+    
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: brown;
+    transition: .3s ease;
+
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #A2B5BB;
+
+}
+.container{
+    height: 100%;
+    margin: 15px auto;
+    border:  1px solid brown;
+    border-radius: 26px;
+    background-color: #A2B5BB;
+
+
+}
+.row{
+    
+    border-radius: 26px;
+    padding: 5px;
+    height: 110%;
+    
+}
+.card{
+    width: 15rem;
+    height: 10rem;
+}
+.col-md-6 > img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color: #A2B5BB;
+   border: 1px solid rgba(211, 211, 211, 0.404);
+}
+.col-md-6 > .card{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid rgba(211, 211, 211, 0.404);
+    background-color: #A2B5BB;
+}
+.card-body{
+    background-color: #A2B5BB;
+}
+.card > img{
+    height: 15rem;
+}
+#toggle {
+    display: none;
+}
+
+#toggle + label + p {
+    display: none;
+}
+
+#toggle:checked + label + p {
+    display: block;
+}

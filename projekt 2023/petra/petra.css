@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  
+    
+ 
+}
+li a.petra{
+    color: rgb(148, 137, 137);
+}
+#petra{
+    background-color: bisque;
+
+}
+header{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+   
+    
+}
+.navbar{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1px auto;
+}
+p{
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+   
+}
+.navbar ul{
+    margin-left: -45px;
+    padding-right: 32px;
+    padding-left: 20px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a{
+    font-size: 18px;
+    color:brown;
+    font-weight:600;
+    text-decoration: none;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 20px;
+  
+    
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: brown;
+    transition: .3s ease;
+
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.carousel{
+    padding: 20px 50px;
+    border: 2px solid burlywood;
+    box-shadow: brown;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.carousel-inner{
+    border-radius: 50px;
+    border: 10px burlywood;
+}
+img{
+    transition: 1.6s;
+}
+img:hover{
+    transform: scale(2,2);
+}
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: brown;
+    border: 2px solid rgb(138, 105, 123);
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.col-lg-4 > h2{
+    padding-top: 40px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+p .btn{
+    transition: .3s;
+}
+p .btn:hover{
+    color: burlywood;
+    font-size: 17px;
+    font-weight: 600;
+}

@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+body {
+    background: url(../images/the-great-pyramid.jpg) ; 
+    background: url(../mrekullite\ e\ botes/the-great-pyramid.jpg);
+    background: url(../projekt\ 2023/the-great-pyramid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width:100%;
+    height: auto;
+    
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 20px ;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    margin-top: -15px;
+   
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+   
+}
+.navbar ul{
+    margin-left: -45px;
+    padding-right: 32px;
+    padding-left: 20px;
+    width: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navbar a{
+    font-size: 18px;
+    color:brown;
+    font-weight:600;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 20px;
+    position: relative;
+  
+    
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: brown;
+    transition: .3s ease;
+
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50% ,-50%);
+    width: 1000px;
+    
+}
+.section a{
+    font-weight: bold;
+    font-size: 80px;
+    color:rgb(99, 11, 11);
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.section:hover{
+    letter-spacing: 5px;
+    
+
+}
+.section a:hover{
+color: rgb(121, 66, 66);
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+@media only screen and (max-width: 768px) {
+
+     
+        .navbar ul{
+           width: 100%;
+           height: 100%;
+           margin: 0;
+           padding: 0;
+           display: flex;
+           justify-content: center;
+           flex-direction: row;
+           align-items: center;
+        }
+        .navbar{
+           width: 100%;
+           height: 100%;
+           display: flex;
+           flex-direction: ;
+           align-items: center;
+           
+        }
+           .navbar ul li {
+               
+               margin-right: 0;
+               margin-bottom: 20px;
+           }
+           .navbar a{
+            font-size: 30px;
+           }
+       
+
+    .section a {
+        font-size: 3rem; /* Adjust font size for smaller screens */
+        display: flex;
+        align-items: center;
+        margin-top: 150px;
+    }
+}

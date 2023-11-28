@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  
+    
+ 
+}
+li a.macu{
+    color: rgb(148, 137, 137);
+}
+#macu{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(198,207,223,1) 0%, rgba(121,133,149,1) 37%, rgba(123,135,151,1) 72%, rgba(158,171,182,1) 100%);
+  /*  background:url(../images/free-photo-of-machu-picchu-in-peru.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    */
+
+}
+header{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+   
+    
+}
+.navbar{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1px auto;
+}
+p{
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+   
+}
+.navbar ul{
+    margin-left: -45px;
+    padding-right: 32px;
+    padding-left: 20px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a{
+    font-size: 18px;
+    color:brown;
+    font-weight:600;
+    text-decoration: none;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 20px;
+  
+    
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: brown;
+    transition: .3s ease;
+
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(198,207,223,1) 0%, rgba(121,133,149,1) 37%, rgba(123,135,151,1) 72%, rgba(158,171,182,1) 100%);
+
+}
+.container{
+    height: 100%;
+    margin: 15px auto;
+   /* border-top:  1px solid brown;*/
+    border-radius: 26px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(198,207,223,1) 0%, rgba(121,133,149,1) 37%, rgba(123,135,151,1) 72%, rgba(158,171,182,1) 100%);
+
+
+}
+.row{
+    
+    border-radius: 26px;
+    padding: 5px;
+    height: 110%;
+    
+}
+.card{
+    width: 15rem;
+    height: 10rem;
+}
+.col-md-6 > img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color: #A2B5BB;
+   border: 1px solid rgba(211, 211, 211, 0.404);
+}
+.col-md-6 > .card{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid rgba(211, 211, 211, 0.404);
+    background-color: #A2B5BB;
+}
+.card-body{
+    background-color: #A2B5BB;
+}
+.card > img{
+    height: 15rem;
+}
+#toggle,#toggle1,#toggle2,#toggle3,#toggle4,#toggle5 {
+    display: none;
+}
+
+#toggle + label + p {
+    display: none;
+}
+
+#toggle:checked + label + p {
+    display: block;
+    font-family: cursive;
+    
+}
+#toggle1 + label + p {
+    display: none;
+}
+
+#toggle1:checked + label + p {
+    display: block;
+    font-family: cursive;
+}
+#toggle2 + label + p {
+    display: none;
+}
+
+#toggle2:checked + label + p {
+    display: block;
+    font-family: cursive;
+}
+#toggle3 + label + p {
+    display: none;
+}
+
+#toggle3:checked + label + p {
+    display: block;
+    font-family: cursive;
+}
+#toggle4 + label + p {
+    display: none;
+}
+
+#toggle4:checked + label + p {
+    display: block;
+    font-family: cursive;
+}
+#toggle5 + label + p{
+    display: none;
+}
+#toggle5:checked + label + p{
+    display: block;
+    font-family: cursive;
+}
+.col-md-4 > p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.card img{
+    transition: .5s;
+}
+.card img:hover{
+background: hsla(195, 83%, 58%, 0.6);
+transform: rotate(10deg);
+box-shadow: 25px 14px 99px 5px rgba(6,37,46,0.78);
+-webkit-box-shadow: 25px 14px 99px 5px rgba(6,37,46,0.78);
+-moz-box-shadow: 25px 14px 99px 5px rgba(6,37,46,0.78);
+
+}
+label.btn{
+    transition: .4s;
+}
+label.btn:hover{
+    color:rgb(70, 66, 66);
+    background: rgb(137, 173, 209);
+}
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 0;
+    margin: 15px auto 0;
+    border-top: 1px solid brown;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(198,207,223,1) 0%, rgba(121,133,149,1) 37%, rgba(123,135,151,1) 72%, rgba(158,171,182,1) 100%);
+}

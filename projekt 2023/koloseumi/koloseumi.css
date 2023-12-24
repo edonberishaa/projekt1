@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  transition: .2s linear;
+    
+ 
+}
+li a.koloseumi{
+    color: rgb(148, 137, 137);
+}
+#koloseumi{
+    background: rgb(188,193,199);
+    background: linear-gradient(174deg, rgba(188,193,199,1) 0%, rgba(85,85,42,0.9164040616246498) 0%, rgba(122,123,98,1) 63%);
+}
+header{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+   
+    
+}
+.navbar{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1px auto;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+   
+}
+.navbar ul{
+    margin-left: -45px;
+    padding-right: 32px;
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navbar a{
+    font-family: sans-serif;
+    font-size: 18px;
+    color:brown;
+    font-weight:600;
+    text-decoration: none;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 20px;
+  
+    
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: brown;
+    transition: .3s ease;
+
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.eb-text-area{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50% ,-50%);
+    width: 1000px;
+}
+.eb-text-area a{
+    font-weight: bold;
+    font-size: 80px;
+    color:rgb(153, 153, 153);
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.eb-text-area:hover{
+    letter-spacing: 5px;
+    
+}
+#container0{
+    max-width: 100%;
+    height: 100vh;
+}
+.container{
+    text-transform: uppercase;
+}
+.row .col-md-4 img{
+    width: 77%;
+    height: 200px;
+    border-radius: 14px;
+}
+.row .col-md-6 img{
+    width: 77%;
+    height: 370px;
+    border-radius: 14px;
+
+}
+.row img{
+    transition: .7s ease-in-out;
+}
+.row img:hover{
+    background: hsla(195, 83%, 58%, 0.6);
+transform: rotate(2deg);
+box-shadow: 25px 14px 99px 5px rgba(19,87,20,0.75);
+-webkit-box-shadow: 25px 14px 99px 5px rgba(19,87,20,0.75);
+-moz-box-shadow: 25px 14px 99px 5px rgba(19,87,20,0.75);
+}
+.carousel{
+    padding: 20px 50px;
+    border: 2px solid burlywood;
+    box-shadow: brown;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.carousel-inner{
+    border-radius: 50px;
+    border: 10px rgb(188,193,199);
+}
+#container1{
+    height: 100vh;
+}
+.eb-footer {
+    background-color: linear-gradient(174deg, rgba(188,193,199,1) 10%, rgba(85,85,42,0.9164040616246498) 0%, rgba(122,123,98,1) 63%);
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    padding: 20px;
+    margin-top: 27px;
+  }
+  .hamburger {
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    display: none; /* Initially hide the hamburger button */
+}
+@media only screen and (max-width: 768px) {
+    .navbar ul {
+        display: none; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 0px; 
+        left: 90px;
+        width: 90%;
+        background-color: transparent; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        margin-bottom: ;
+    }
+    .navbar ul.show {
+        display: flex;
+    }
+
+    .navbar li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: block; /* Show the hamburger button on smaller screens */
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    
+  }

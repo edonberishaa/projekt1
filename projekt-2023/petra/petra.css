@@ -217,7 +217,7 @@ p .btn:hover{
         height: 40vh;
     }
     img:hover{
-        transform: scale(0);
+        transform: scale(1.5);
     }
    
 }

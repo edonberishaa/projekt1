@@ -216,5 +216,8 @@ p .btn:hover{
     .carousel-inner img{
         height: 40vh;
     }
+    img:hover{
+        transform: scale(0);
+    }
    
 }

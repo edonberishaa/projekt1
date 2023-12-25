@@ -6,4 +6,5 @@ document.addEventListener('DOMContentLoaded', function () {
   hamburgerBtn.addEventListener('click', function () {
       navbarList.classList.toggle('show');
   });
+    hamburgerBtn.removeEventListener();
 });

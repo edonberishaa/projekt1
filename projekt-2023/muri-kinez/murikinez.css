@@ -8,24 +8,21 @@
 }
 body{
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(198,207,223,1) 0%, rgba(218,226,237,1) 15%, rgba(158,171,182,1) 100%);
-
-    
+    background: linear-gradient( rgba(198,207,223,1) 0%, rgba(218,226,237,1) 15%, rgba(158,171,182,1) 100%);
 }
 header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width:100%;
-    padding: 20px 0px;
-    background: transparent;
+    width: 100%;
+    background-color: transparent;
     display: flex;
-    justify-content: space-around;
+    
+}
+.navbar{
+     display: flex;
+    justify-content: center;
     align-items: center;
-    z-index: 100;
-    margin-top: -15px;
-    border-bottom: 1px dotted brown;
-   
+    width: 90%;
+    margin: auto;
+    padding: 1px auto;
 }
 .navbar ul li{
     list-style: none;
@@ -76,6 +73,7 @@ header{
 
 .eb-text-area{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -88,24 +86,29 @@ header{
 }
 .eb-text-area a{
     font-weight: bold;
-    font-size: 80px;
-    color:rgb(116, 96, 96);
+    font-size: 115px;
+    color:rgb(95, 86, 86);
     text-decoration: none;
     transition: 0.5s ease;
 }
-.eb-text-area:hover{
+.eb-text-area a:hover{
     letter-spacing: 5px;
     
 
 }
+.eb-text-area h5{
+    color: rgb(95,86,86);
+    line-height: 0.3rem;
+    letter-spacing: 5px;
+}
 #container0{
-    height: 90vh;
+    height: 100vh;
     border-bottom: 2px solid snow;
 }
 
-.container{
+/*.container{
     margin-top: 150px;
-}
+}*/
 .card-body{
     background-color: rgb(121, 137, 138);
 }
@@ -134,7 +137,7 @@ header{
     font-weight: bold;
 }
 .card img{
-    height: 250px;
+    height: 230px;
 }
 .col-md-9{
     background-color: rgb(121, 137, 138);
@@ -166,42 +169,63 @@ h2{
     padding: 20px;
     margin-top: 20px;
   }
-
+  .hamburger {
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    display: none; /* Initially hide the hamburger button */
+  }
+  
 
 
     @media only screen and (max-width: 768px) {
-        body{
-            height: 100%;
-            width: 100%;
-        }
-        header{
-            display: flex;
-        }
-     
-        .navbar ul{
-           width: 110%;
-           height: 100%;
-           margin: 0;
-           padding: 0;
-           display: flex;
-           justify-content: center;
-           flex-direction: row;
-           align-items: center;
-        }
-        .navbar{
-           width: 100%;
-           height: 100%;
-           display: flex;
-           flex-direction: row;
-           align-items: center;
-           
-        }
-           .navbar ul li {
-               display: flex;
-               margin-right: 0;
-               margin-bottom: 20px;
-           }
-           .container{
-            margin-top: 200px;
-           }
+    .navbar ul {
+        display: none; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 0px; 
+        left: 40px;
+        width: 100%;
+        background-color: transparent; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    }
+    .navbar ul.show {
+        display: flex;
+    }
+
+    .navbar li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: block; /* Show the hamburger button on smaller screens */
+        font-size: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .eb-text-area {
+        width: 90%;
+    }
+    .eb-text-area a{
+        font-size: 370%;
+    }
+    .eb-text-area a:hover{
+        letter-spacing: 1px;
+    }
+    .eb-text-area h5{
+        font-size: 82%;
+    }
+    #row{
+        margin-left: 2px;
+    }
+      .fotomuri{
+        width: 100%;
+        height: 100%;
+      }
+      #row .btn{
+        margin-bottom: 10px;
+      }
    }

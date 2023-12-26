@@ -185,8 +185,8 @@ h2{
         flex-direction: row;
         flex-wrap: wrap;
         position: absolute;
-        top: 0px; 
-        left: 40px;
+        top: -25px; 
+        left: 45px;
         width: 100%;
         background-color: transparent; 
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
@@ -199,7 +199,9 @@ h2{
         margin: 0;
         text-align: center;
     }
-
+ .navbar ul li a{
+    font-size: 90%;
+ }
     .hamburger {
         display: block; /* Show the hamburger button on smaller screens */
         font-size: 40px;
@@ -208,6 +210,7 @@ h2{
     }
     .eb-text-area {
         width: 90%;
+        
     }
     .eb-text-area a{
         font-size: 370%;
@@ -227,5 +230,8 @@ h2{
       }
       #row .btn{
         margin-bottom: 10px;
+      }
+      .col-md-4{
+        margin-bottom: 15%;
       }
    }

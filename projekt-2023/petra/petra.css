@@ -29,12 +29,6 @@ header{
     margin: auto;
     padding: 1px auto;
 }
-p{
-    font-weight: 400;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
 .navbar ul li{
     list-style: none;
     display: inline-block;
@@ -76,6 +70,14 @@ p{
 }
 .navbar a:hover::before{
     width: 100%;
+}
+p{
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-header h1{
+    color: rgb(95, 86,86);
+    visibility: hidden;
 }
 .eb-text-area{
     display: flex;
@@ -165,11 +167,10 @@ p .btn:hover{
     .navbar ul {
         display: none; 
         flex-direction: row;
-        justify-content: space-between;
         flex-wrap: wrap;
         position: absolute;
-        top: 0px; 
-        left: 25%;
+        top: -25px; 
+        left: 45px;
         width: 100%;
         background-color: transparent; 
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
@@ -182,10 +183,9 @@ p .btn:hover{
         margin: 0;
         text-align: center;
     }
-    .navbar ul li a{
-        font-size: 75%;
-    }
-
+ .navbar ul li a{
+    font-size: 90%;
+ }
     .hamburger {
         display: block; /* Show the hamburger button on smaller screens */
         font-size: 40px;
@@ -194,15 +194,17 @@ p .btn:hover{
     }
     .eb-text-area {
         width: 90%;
+        
     }
     .eb-text-area a{
-        font-size: 415%;
+        font-size: 370%;
     }
     .eb-text-area a:hover{
         letter-spacing: 1px;
     }
     .eb-text-area h5{
-        font-size: 55%;
+        font-size: 63%;
+        margin-top: -3%;
     }
     .rounded-circle{
         margin-left: 27%;
@@ -217,7 +219,11 @@ p .btn:hover{
         height: 40vh;
     }
     img:hover{
-        transform: scale(1.5);
+        transform: scale(1.1);
+    }
+    .card-header h1{
+        visibility: visible;
+        margin-bottom: 5%;
     }
    
 }

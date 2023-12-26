@@ -38,9 +38,9 @@ header{
 }
 .navbar ul li{
     list-style: none;
-    display: inline-block;
+    display: flex;
     position: relative;
-    margin-top: 30px;
+    margin-top: 5px;
    
 }
 .navbar ul{

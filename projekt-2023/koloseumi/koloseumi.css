@@ -42,15 +42,13 @@ header{
     margin-left: -45px;
     padding-right: 32px;
     padding-left: 20px;
-    width: 100%;
+    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .navbar a{
-    font-family: sans-serif;
     font-size: 18px;
     color:brown;
     font-weight:600;
@@ -77,6 +75,7 @@ header{
 }
 .eb-text-area{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -85,21 +84,26 @@ header{
     top: 50%;
     right: 50%;
     transform: translate(50% ,-50%);
-    width: 1000px;
+    width: 910px;
 }
 .eb-text-area a{
     font-weight: bold;
-    font-size: 80px;
-    color:rgb(153, 153, 153);
+    font-size: 90px;
+    color:rgb(153,153,153);
     text-decoration: none;
     transition: 0.5s ease;
 }
-.eb-text-area:hover{
+.eb-text-area a:hover{
     letter-spacing: 5px;
     
+
+}
+.eb-text-area h5{
+    color: rgb(153,153,153);
+    line-height: 0.3rem;
+    letter-spacing: 5px;
 }
 #container0{
-    max-width: 100%;
     height: 100vh;
 }
 .container{
@@ -159,14 +163,14 @@ box-shadow: 25px 14px 99px 5px rgba(19,87,20,0.75);
     .navbar ul {
         display: none; 
         flex-direction: row;
+        justify-content: space-between;
         flex-wrap: wrap;
         position: absolute;
         top: 0px; 
-        left: 90px;
-        width: 90%;
+        left: 40px;
+        width: 100%;
         background-color: transparent; 
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-        margin-bottom: ;
     }
     .navbar ul.show {
         display: flex;
@@ -176,11 +180,42 @@ box-shadow: 25px 14px 99px 5px rgba(19,87,20,0.75);
         margin: 0;
         text-align: center;
     }
-
+    .navbar ul li a{
+        font-size: 75%;
+    }
     .hamburger {
         display: block; /* Show the hamburger button on smaller screens */
         font-size: 40px;
         margin-top: 10px;
+        margin-left: 10px;
     }
-    
+    .eb-text-area {
+        width: 80%;
+        margin-bottom: -13%;
+    }
+    .eb-text-area a{
+        font-size: 380%;
+    }
+    .eb-text-area a:hover{
+        letter-spacing: 1px;
+    }
+    .eb-text-area h5{
+        margin-top: -3%;
+        font-size: 60%;
+    }
+    .card-img img{
+        margin-left: 10%;
+    }
+    .col-md-4{
+        margin-bottom: 15%;
+    }
+    .col-md-6{
+        margin-bottom: 15%;
+    }
+    .carousel{
+        height: 50%;
+    }
+    .carousel-inner{
+        height: 95%;
+    }
   }

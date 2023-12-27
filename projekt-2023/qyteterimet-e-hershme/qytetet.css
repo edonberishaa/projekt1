@@ -87,7 +87,7 @@ header{
     top: 50%;
     right: 50%;
     transform: translate(50% ,-50%);
-    width: 1000px;
+    width: 910px;
 }
 .eb-text-area a{
     font-weight: bold;
@@ -210,23 +210,17 @@ header{
     padding: 20px;
     margin-top: 20px;
   }
-  
-
-  @media (max-width: 768px) {
-    #container {
-        padding: 20px;
-    }
-}
 
 @media only screen and (max-width: 768px) {
     .navbar ul {
         display: none;
         flex-wrap: wrap;
-        flex-direction: column; /* Adjusted to display vertically on small screens */
+        flex-direction: row; 
+        justify-content: space-between;
         position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
+        top: 0px;
+        left: 23%;
+        width: 95%;
         background-color: transparent;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
@@ -234,19 +228,36 @@ header{
     .navbar ul.show {
         display: flex;
     }
-
-    #section1 {
-        margin-top: 44%;
-    }
-
     .navbar li {
         margin: 0;
         text-align: center;
+    }
+    .navbar ul li a{
+        font-size: 90%;
     }
 
     .hamburger {
         display: block;
         font-size: 40px;
         margin-top: 10px;
+        margin-left: -5%;
     }
+    .eb-text-area{
+        width: 90%;
+    }
+    .eb-text-area a{
+        font-size: 320%;
+    }
+    .eb-text-area a:hover{
+        letter-spacing: 1px;
+    }
+    .eb-text-area h5{
+        font-size: 70%;
+    }
+   #container .eb-heading{
+    font-size: 26px;
+   }
+   .qyteterim{
+    font-size: 150%;
+   }
 }

@@ -10,9 +10,6 @@
 li a.cicenica{
     color: rgb(148, 137, 137);
 }
-#cicenica{
-  
-}
 
 header{
     width: 100%;
@@ -138,13 +135,14 @@ h2.featurette-heading{
   .navbar ul {
       display: none; 
       flex-direction: row;
+      justify-content: space-between;
       flex-wrap: wrap;
       position: absolute;
       top: 0px; 
       left: 50px;
       width: 100%;
       background-color: transparent; 
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+      box-shadow: 0 2px 5px rgba(73, 53, 255, 0.1); 
   }
   .navbar ul.show {
       display: flex;
@@ -165,8 +163,15 @@ h2.featurette-heading{
       margin-top: 10px;
   }
   .eb-banner{
-    overflow: scroll;
-    margin-bottom: 10px;
+    height: 300px;
+    padding: 30px;
+    overflow: hidden;
+    font-size: 5px;
   }
-  
+  .eb-banner-content{
+    font-size: 8px;
+  }
+  .eb-outcontent p{
+    font-size: 80%;
+  }
 }

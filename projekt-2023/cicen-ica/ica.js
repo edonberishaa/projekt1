@@ -12,5 +12,5 @@ document.addEventListener('DOMContentLoaded', function () {
   const hamburgerBtn = document.getElementById('hamburger-btn');
   const margina = document.getElementById('sektion');
   hamburgerBtn.addEventListener('click',function () {
-    margina.style.margin = '200px 0px 0px 0px';
+    margina.style.margin = '150px 0px 0px 0px';
   });

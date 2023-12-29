@@ -15,7 +15,6 @@ header{
     width: 100%;
     background-color: transparent;
     display: flex;
-   background-color: aliceblue;
     
 }
 .navbar{
@@ -138,7 +137,7 @@ h2.featurette-heading{
       justify-content: space-between;
       flex-wrap: wrap;
       position: absolute;
-      top: 0px; 
+      top: -30px; 
       left: 50px;
       width: 100%;
       background-color: transparent; 
@@ -154,7 +153,7 @@ h2.featurette-heading{
       text-align: center;
   }
   .navbar ul li a{
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .hamburger {
@@ -168,8 +167,10 @@ h2.featurette-heading{
     overflow: hidden;
     font-size: 5px;
   }
-  .eb-banner-content{
+  .eb-banner-content p{
     font-size: 8px;
+    display: none;
+    
   }
   .eb-outcontent p{
     font-size: 80%;

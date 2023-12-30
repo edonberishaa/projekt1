@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,500;0,900;1,700&family=Poppins:ital,wght@0,200;0,400;0,600;0,900;1,300&display=swap');
+
 *{
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins','Sans Serif';
   margin: 0;
   padding: 0;
     
@@ -82,11 +84,11 @@ header{
     top: 50%;
     right: 50%;
     transform: translate(50% ,-50%);
-    width: 1000px;
+    width: 950px;
 }
 .eb-text-area a{
     font-weight: bold;
-    font-size: 115px;
+    font-size: 100px;
     color:rgb(95, 86, 86);
     text-decoration: none;
     transition: 0.5s ease;
@@ -105,10 +107,6 @@ header{
     height: 100vh;
     border-bottom: 2px solid snow;
 }
-
-/*.container{
-    margin-top: 150px;
-}*/
 .card-body{
     background-color: rgb(121, 137, 138);
 }
@@ -176,9 +174,6 @@ h2{
     background: transparent;
     display: none; /* Initially hide the hamburger button */
   }
-  
-
-
     @media only screen and (max-width: 768px) {
     .navbar ul {
         display: none; 
@@ -203,14 +198,13 @@ h2{
     font-size: 90%;
  }
     .hamburger {
-        display: block; /* Show the hamburger button on smaller screens */
+        display: block; 
         font-size: 40px;
         margin-top: 10px;
         margin-left: 10px;
     }
     .eb-text-area {
         width: 90%;
-        margin-top:7%;
         
     }
     .eb-text-area a{
@@ -221,6 +215,7 @@ h2{
     }
     .eb-text-area h5{
         font-size: 82%;
+        margin-top: -3%;
     }
     #row{
         margin-left: 2px;

@@ -29,7 +29,7 @@ header{
     list-style: none;
     display: flex;
     position: relative;
-    margin-top: 5px;
+    margin-top: 10px;
    
 }
 .navbar ul{
@@ -123,6 +123,9 @@ h2.featurette-heading{
   padding: 20px;
   margin-top: 20px;
 }
+.eb-banner-content .eb-paragrafi{
+  display: none;
+}
 .hamburger {
   font-size: 20px;
   cursor: pointer;
@@ -168,10 +171,13 @@ h2.featurette-heading{
     font-size: 5px;
   }
   .eb-banner-content p{
-    font-size: 8px;
-    display: none;
-    
-  }
+display: none; 
+ }
+ .eb-banner-content .eb-paragrafi{
+    display: block;
+    font-size: 17px;
+    line-height: 150%;
+ }
   .eb-outcontent p{
     font-size: 80%;
   }

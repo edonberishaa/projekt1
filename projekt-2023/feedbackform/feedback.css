@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lavender;
+}
+.eb-contact h2{
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.eb-contact form{
+    width: 600px;
+    text-align: center;
+}
+form .eb-input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.eb-input-box .eb-input-field{
+    width: 49.2%;
+}
+.eb-field .eb-item{
+    width:100% ;
+    background: transparent;
+    padding: 17px;
+    border: 2px solid rgb(24, 14, 14);
+    border-right-width: 3px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #050505;
+    margin: 12px 0;
+}
+.eb-field.error .eb-item{
+    border-color: #d93025;
+}
+.eb-field.error .eb-error-txt{
+    display: block;
+}
+.eb-field .eb-item::placeholder{
+    color: rgba(0, 0, 0, 0.3);
+}
+form .eb-textarea-field .eb-item{
+    resize: none;
+}
+form button{
+    padding: 12px 32px;
+    background-color: rgb(141, 59, 59);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.eb-field .eb-error-txt{
+    font-size: 14px;
+    color: #d93025;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+}
+form .eb-textarea-field .eb-error-txt{
+    margin-top: -10px;
+}
+
+@media only screen and (max-width: 768px){
+ html,body{
+    height: 100vh;
+    width: 100vh;
+ }
+
+}

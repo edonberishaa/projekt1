@@ -9,8 +9,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: tan;
     min-height: 100vh;
-    background-color: lavender;
+    min-width: 100vh;
 }
 .eb-contact h2{
     font-size: 40px;
@@ -79,9 +80,48 @@ form .eb-textarea-field .eb-error-txt{
 }
 
 @media only screen and (max-width: 768px){
- html,body{
-    height: 100vh;
-    width: 100vh;
- }
-
+    html,body{
+        width: 100vh;
+        height: 113vh;
+        overflow: hidden;
+    }
+    .eb-contact h2{
+        font-size: 30px;
+    }
+    .eb-contact{
+        height: 100%;
+        width: 100%;
+    }
+    .eb-contact form{
+        height: 100%;
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+    }
+    .eb-input-box .eb-input-field{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .eb-input-field .eb-field{
+        display: flex;
+        justify-content: center;
+    }
+    input.eb-item{
+        display: flex;
+        justify-content: center;
+        height: px;
+    }
+    form .eb-input-box{
+        justify-content: center;
+    }
+    textarea#mesazhi{
+        width: 70%;
+    }
+    button{
+        width: 50%;
+        margin-left: 25%;
+    }
 }

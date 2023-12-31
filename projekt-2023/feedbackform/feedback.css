@@ -11,7 +11,7 @@ body{
     align-items: center;
     background-color: tan;
     min-height: 100vh;
-    min-width: 100vh;
+    max-width: 100vh;
 }
 .eb-contact h2{
     font-size: 40px;
@@ -81,19 +81,19 @@ form .eb-textarea-field .eb-error-txt{
 
 @media only screen and (max-width: 768px){
     html,body{
-        width: 100vh;
-        height: 113vh;
-        overflow: hidden;
+       max-width: 100vh;
+         min-height: 133vh;
+    }
+    body{
+        margin-top: -50px;
     }
     .eb-contact h2{
-        font-size: 30px;
+        font-size: 24px;
     }
     .eb-contact{
-        height: 100%;
         width: 100%;
     }
     .eb-contact form{
-        height: 100%;
         width: 100%;
        display: flex;
        flex-direction: column;
@@ -110,9 +110,9 @@ form .eb-textarea-field .eb-error-txt{
         justify-content: center;
     }
     input.eb-item{
+        height: 10px;
         display: flex;
         justify-content: center;
-        height: px;
     }
     form .eb-input-box{
         justify-content: center;
@@ -121,6 +121,7 @@ form .eb-textarea-field .eb-error-txt{
         width: 70%;
     }
     button{
+        
         width: 50%;
         margin-left: 25%;
     }

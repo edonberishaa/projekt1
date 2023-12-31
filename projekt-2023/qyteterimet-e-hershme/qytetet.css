@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+    
+ 
+}
+li a.cicenica{
+    color: rgb(148, 137, 137);
+}
+#qyteterimet-e-hershme{
+    background: rgb(39,89,102);
+    background: linear-gradient(172deg, rgba(39,89,102,1) 0%, rgba(62,68,67,0.7651435574229692) 26%);
+
+}
+header{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+   
+    
+}
+.navbar{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1px auto;
+}
+.navbar ul li{
+    list-style: none;
+    display: flex;
+    position: relative;
+    margin-top: 5px;
+   
+}
+.navbar ul{
+    margin-left: -45px;
+    padding-right: 32px;
+    padding-left: 20px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a{
+    font-family: sans-serif;
+    font-size: 18px;
+    color:brown;
+    font-weight:600;
+    text-decoration: none;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 20px;
+  
+    
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: brown;
+    transition: .3s ease;
+
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.eb-text-area{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50% ,-50%);
+    width: 910px;
+}
+.eb-text-area a{
+    font-weight: bold;
+    font-size: 80px;
+    color:rgb(153, 153, 153);
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.eb-text-area a:hover{
+    letter-spacing: 5px;
+    
+
+}
+.eb-text-area h5{
+    color: rgb(153, 153, 153);
+    line-height: 0.3rem;
+    letter-spacing: 5px;
+}
+#container0{
+    height: 100vh;
+}
+
+
+#container1{
+    border-radius: 24px;
+    height: 80vh;
+}
+
+
+#container{
+    margin-top: 10%;
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+#container .eb-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+#container .eb-box-container{
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit,minmax(270px,1fr)); 
+}
+
+#container .eb-box-container .eb-box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
+#container .eb-box-container .eb-box img{
+    height: 80px;
+}
+
+#container .eb-box-container .eb-box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+#container .eb-box-container .eb-box p{
+    color:#777;
+    text-transform: none;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+#container .eb-box-container .eb-box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+#container .eb-box-container .eb-box .btn:hover{
+    letter-spacing: 1px;
+}
+
+#container .eb-box-container .eb-box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+#section1{
+    margin-top: 5%;
+}
+#box{
+    filter: blur(3px);
+}
+.eb-box img{
+    transition: 1s ease;
+}
+.eb-box img:hover{
+    transform: perspective(4%);
+    transform: scale(2.0);
+}
+.hamburger {
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    display: none; /* Initially hide the hamburger button */
+}
+
+.eb-footer {
+    background-color: rgb(125, 125, 125);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+@media only screen and (max-width: 768px) {
+    .navbar ul {
+        display: none;
+        flex-wrap: wrap;
+        flex-direction: row; 
+        justify-content: space-between;
+        position: absolute;
+        top: 0px;
+        left: 23%;
+        width: 95%;
+        background-color: transparent;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar ul.show {
+        display: flex;
+    }
+    .navbar li {
+        margin: 0;
+        text-align: center;
+    }
+    .navbar ul li a{
+        font-size: 90%;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-left: -5%;
+    }
+    .eb-text-area{
+        width: 90%;
+    }
+    .eb-text-area a{
+        font-size: 320%;
+    }
+    .eb-text-area a:hover{
+        letter-spacing: 1px;
+    }
+    .eb-text-area h5{
+        font-size: 70%;
+    }
+   #container .eb-heading{
+    font-size: 26px;
+   }
+   .qyteterim{
+    font-size: 150%;
+   }
+}

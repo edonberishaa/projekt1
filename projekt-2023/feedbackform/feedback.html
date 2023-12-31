@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+    <script src="feedback.js" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js" defer> </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer ></script>
+
+   
+</head>
+<body id="feedback">
+    
+<section class="eb-contact">
+        <h2>Me kontaktoni per cdo gje!</h2>
+
+        <form action="#">
+        <div class="eb-input-box">
+
+        <div class="eb-input-field eb-field">
+        <input type="text" placeholder="Emri dhe Mbiemri" id="name" class="eb-item" autocomplete="off">
+        <div class="eb-error-txt">Emri dhe Mbiemri nuk duhet te jete i zbrazte</div>
+        </div>
+
+        <div class="eb-input-field eb-field">
+            <input type="text" placeholder="Email Adresa" class="eb-item" id="email" autocomplete="off">
+            <div class="eb-error-txt email">E-Mail Addresa nuk duhet te jete e zbrazte</div>
+        </div>
+
+        <div class="eb-input-field eb-field">
+            <input type="text" placeholder="Nr. i Telefonit" id="numri" class="eb-item" autocomplete="off">
+            <div class="eb-error-txt phone">Nr. i Telefonit nuk duhet te jete i zbrazte</div>
+
+            </div>
+
+        <div class="eb-input-field eb-field">
+            <input type="text" placeholder="Tema" id="tema" class="eb-item" autocomplete="off">
+            <div class="eb-error-txt">Tema nuk duhet te jete e zbrazte</div>
+
+             </div>
+    </div>
+    
+    <div class="eb-textarea-field eb-field">
+        <textarea name="" id="mesazhi" cols="20" rows="10"
+        placeholder="Mesazhi" class="eb-item" autocomplete="off">
+    </textarea>
+    <div class="eb-error-txt">Mesazhi nuk duhet te jete i zbrazte</div>
+    </div>
+
+    <button type="submit">Dergoje mesazhin!</button>
+
+
+</form>
+</section>
+
+
+
+
+
+
+    
+</body>
+</html>

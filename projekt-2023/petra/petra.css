@@ -25,7 +25,6 @@ header{
      display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
     margin: auto;
     padding: 1px auto;
 }
@@ -164,6 +163,9 @@ p .btn:hover{
     display: none; /* Initially hide the hamburger button */
 }
 @media only screen and (max-width: 768px) {
+    .navbar{
+        width: 90%;
+    }
     .navbar ul {
         display: none; 
         flex-direction: row;
@@ -227,4 +229,21 @@ p .btn:hover{
         margin-bottom: 5%;
     }
    
+}
+@media only screen and (max-width: 375px) {
+    .navbar ul li a{
+        font-size: 60%;
+    }
+    .eb-text-area a{
+        font-size: 300%;
+    }
+    .eb-text-area h5{
+        font-size: 47%;
+        margin-top: -3%;
+    }
+
+
+}
+@media only screen and (max-width: 1024px) {
+
 }

@@ -263,29 +263,35 @@ header{
     font-size: 150%;
    }
 }
+
+
+
 @media only screen and (max-width: 375px) {
     .navbar ul li a{
-        font-size: 64%;
+        font-size: 11px;
     }
+    .navbar{width: 90%;}
     .eb-text-area{
         font-size: 70%;
     }
     .hamburger{
         font-size: 30px;
+        margin-left: 5px;
+    }
+    #container{
+        margin-top: 92%;
     }
     #container1{
         height: 100vh;
     }
-    .eb-footer{
-        font-size: 80%;
+    .eb-footer p,.eb-footer a{
+        font-size: 60%;
     }
    }
+
    @media only screen and (max-width: 1024px) {
     .navbar{
         width: 100%;
-    }
-    .navbar ul li a{
-        font-size: 22px;
     }
     #container0{
         height: 85vh;

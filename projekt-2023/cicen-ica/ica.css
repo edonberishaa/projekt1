@@ -21,7 +21,6 @@ header{
      display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
     margin: auto;
     padding: 1px auto;
 }
@@ -134,6 +133,9 @@ h2.featurette-heading{
   display: none; /* Initially hide the hamburger button */
 }
 @media only screen and (max-width: 768px) {
+  .navbar{
+    width: 90%;
+  }
   .navbar ul {
       display: none; 
       flex-direction: row;
@@ -141,7 +143,7 @@ h2.featurette-heading{
       flex-wrap: wrap;
       position: absolute;
       top: -30px; 
-      left: 50px;
+      left: 48px;
       width: 100%;
       background-color: transparent; 
       box-shadow: 0 2px 5px rgba(73, 53, 255, 0.1); 
@@ -171,7 +173,7 @@ h2.featurette-heading{
     font-size: 5px;
   }
   .eb-banner-content p{
-display: none; 
+    display: none; 
  }
  .eb-banner-content .eb-paragrafi{
     display: block;
@@ -180,5 +182,27 @@ display: none;
  }
   .eb-outcontent p{
     font-size: 80%;
+  }
+}
+@media only screen and (max-width: 1024px){
+
+.navbar{
+  width: 100%;
+}
+
+
+}
+@media only screen and (max-width: 375px){
+  .navbar ul li a{
+    font-size: 69%;
+  }
+  #forma1{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  #forma2{
+    width: 100%;
+    display: flex;
   }
 }

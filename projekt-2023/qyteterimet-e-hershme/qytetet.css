@@ -29,7 +29,6 @@ header{
      display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
     margin: auto;
     padding: 1px auto;
 }
@@ -212,6 +211,9 @@ header{
   }
 
 @media only screen and (max-width: 768px) {
+    .navbar{
+        width: 90%;
+    }
     .navbar ul {
         display: none;
         flex-wrap: wrap;
@@ -261,3 +263,37 @@ header{
     font-size: 150%;
    }
 }
+@media only screen and (max-width: 375px) {
+    .navbar ul li a{
+        font-size: 64%;
+    }
+    .eb-text-area{
+        font-size: 70%;
+    }
+    .hamburger{
+        font-size: 30px;
+    }
+    #container1{
+        height: 100vh;
+    }
+    .eb-footer{
+        font-size: 80%;
+    }
+   }
+   @media only screen and (max-width: 1024px) {
+    .navbar{
+        width: 100%;
+    }
+    .navbar ul li a{
+        font-size: 22px;
+    }
+    #container0{
+        height: 85vh;
+    }
+    #container1{
+        height: 50vh;
+    }
+    .eb-footer{
+        font-size: 150%;
+    }
+   }

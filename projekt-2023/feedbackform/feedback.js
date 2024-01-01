@@ -8,6 +8,7 @@ const message = document.getElementById('mesazhi');
 function sendEmail(){
     const bodyMessage = `Full Name : ${fullName.value}<br>
     Email : ${email.value}<br> Phone Number: ${phone.value}<br>
+    Tema: ${subject.value}<br>
     Message: ${message.value} `;
 
     Email.send({

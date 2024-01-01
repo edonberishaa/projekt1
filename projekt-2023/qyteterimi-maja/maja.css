@@ -27,7 +27,6 @@ header{
      display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
     margin: auto;
     padding: 1px auto;
 }
@@ -145,6 +144,9 @@ article{
   
 
   @media only screen and (max-width: 768px) {
+    .navbar{
+        width: 90%;
+    }
     .navbar ul {
         display: none; 
         flex-direction: row;
@@ -204,3 +206,26 @@ article{
         height: 40%;
     }
   }
+
+  @media only screen and (max-width: 375px){
+    .hamburger {
+        font-size: 33px;
+        position: relative;
+        left: 20px;
+    }
+    .navbar ul li a{
+        font-size: 10px;
+        flex-wrap: wrap;
+    }
+  }
+
+  @media only screen and (max-width: 1024px){
+    .navbar{
+        width: 100%;
+    }
+    p.lead{
+        margin-left: 10px;
+    }
+  }
+
+

@@ -196,17 +196,20 @@ box-shadow: 25px 14px 99px 5px rgba(19,87,20,0.75);
         margin-top: 0;
     }
     .eb-text-area {
-        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
         margin-bottom: -13%;
     }
     .eb-text-area a{
-        font-size: 380%;
+        font-size: 370%;
     }
     .eb-text-area a:hover{
         letter-spacing: 1px;
     }
     .eb-text-area h5{
-        margin-top: -3%;
+        margin-top: -2%;
         font-size: 70%;
     }
     .card-img img{

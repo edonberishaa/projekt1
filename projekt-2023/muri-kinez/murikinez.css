@@ -204,7 +204,10 @@ h2{
         margin-left: 10px;
     }
     .eb-text-area {
-        width: 90%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         
     }
     .eb-text-area a{
@@ -215,7 +218,7 @@ h2{
     }
     .eb-text-area h5{
         font-size: 82%;
-        margin-top: -3%;
+        margin-top: -2%;
     }
     #row{
         margin-left: 2px;

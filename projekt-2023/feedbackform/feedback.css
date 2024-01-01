@@ -7,11 +7,12 @@
 }
 body{
     display: flex;
-    justify-content: center;
+   justify-content: center;
     align-items: center;
     background-color: tan;
-    min-height: 100vh;
-    max-width: 100vh;
+ /*   min-height: 100vh;
+    max-width: 100vh;*/
+   /* transform: translate(50%);*/
 }
 .eb-contact h2{
     font-size: 40px;
@@ -80,12 +81,15 @@ form .eb-textarea-field .eb-error-txt{
 }
 
 @media only screen and (max-width: 768px){
-    html,body{
+   /* html,body{
        max-width: 100vh;
          min-height: 133vh;
-    }
-    body{
+    }*/
+   /* body{
         margin-top: -50px;
+    }*/
+    body{
+        min-height: 100vh;
     }
     .eb-contact h2{
         font-size: 24px;

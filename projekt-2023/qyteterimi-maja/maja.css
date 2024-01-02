@@ -151,11 +151,11 @@ article{
         display: none; 
         flex-direction: row;
         justify-content: space-between;
-        flex-wrap: wrap;
         position: absolute;
-        top: 0px; 
-        left: 20%;
-        width: 100%;
+        top: 10px; 
+        flex-wrap: wrap;
+        left: 16%;
+        width: 92%;
         background-color: transparent; 
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     }
@@ -176,7 +176,6 @@ article{
         display: block; /* Show the hamburger button on smaller screens */
         font-size: 40px;
         margin-top: 10px;
-        margin-left: -4%;
     }
       .jumbotron{
         overflow: scroll;
@@ -216,6 +215,12 @@ article{
     .navbar ul li a{
         font-size: 10px;
         flex-wrap: wrap;
+    }
+    .navbar ul{
+        width: 90%;
+    }
+    .eb-box-content p {
+        font-size: 94%;
     }
   }
 

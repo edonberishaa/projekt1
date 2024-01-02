@@ -83,7 +83,8 @@ header{
     top: 50%;
     right: 50%;
     transform: translate(50% ,-50%);
-    width: 910px;
+    width: 100%;
+    flex-direction: column;
 }
 .eb-text-area a{
     font-weight: bold;

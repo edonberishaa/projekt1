@@ -231,7 +231,6 @@ header{
     .navbar ul.show {
         display: flex;
         width: 86%;
-        margin-left:-30px;
     }
     .navbar li {
         margin: 0;

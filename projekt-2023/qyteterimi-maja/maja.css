@@ -193,6 +193,9 @@ article{
     .jumbotron a{
         font-size: 110%;
     }
+    .eb-footer p{
+        font-size: 15px;
+    }
     .eb-box{
         overflow: scroll;
     }
@@ -218,8 +221,10 @@ article{
         flex-wrap: wrap;
     }
     .navbar ul.show{
+        display: flex;
         width: 88%;
-        margin-left: -22px;
+        margin-left: -14px;
+        margin-top: -10px;
     }
     .eb-box-content p {
         font-size: 94%;
@@ -230,17 +235,26 @@ article{
     .navbar{
         width: 100%;
     }
+    .navbar ul li a{
+        font-size: 15px;
+    }
     p.lead{
         margin-left: 10px;
+        font-size: 14px;
     }
-    p{
+   /* p{
         font-size: 19px;
+    }*/
+    .eb-box-content p {
+        font-size: 14px;
     }
-  }
-  @media only screen and (max-width: 1440px){
-    p{
-        font-size: 25px;
+    p#tekst{
+        font-size: 15px;
     }
+    .jumbotron .btn{
+        font-size: 16px;
+    }
+
   }
 
 

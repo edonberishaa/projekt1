@@ -131,6 +131,8 @@ article .card-body{
     }
     .navbar ul.show {
         display: flex;
+        width: 90%;
+        margin-left: -12%;
         
     }
   
@@ -204,7 +206,7 @@ article .card-body{
   }
   @media only screen and (max-width:375px){
         .navbar ul li a{
-            font-size: 70%;
+            font-size: 60%;
         }
 
 
@@ -213,5 +215,11 @@ article .card-body{
   @media only screen and (max-width: 1024px) {
     	.eb-images img{
             width: 50%;
+        }
+        .navbar{
+            width: 100%;
+        }
+        p{
+            font-size: 20px;
         }
   }

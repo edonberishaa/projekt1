@@ -161,7 +161,8 @@ article{
     }
     .navbar ul.show {
         display: flex;
-        
+        width: 92%;
+        margin-left: -10%;
     }
   
     .navbar li {
@@ -210,14 +211,15 @@ article{
     .hamburger {
         font-size: 33px;
         position: relative;
-        left: 20px;
+        left: 10px;
     }
     .navbar ul li a{
         font-size: 10px;
         flex-wrap: wrap;
     }
-    .navbar ul{
-        width: 90%;
+    .navbar ul.show{
+        width: 88%;
+        margin-left: -22px;
     }
     .eb-box-content p {
         font-size: 94%;

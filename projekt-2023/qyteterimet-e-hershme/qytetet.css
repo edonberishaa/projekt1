@@ -86,7 +86,8 @@ header{
     top: 50%;
     right: 50%;
     transform: translate(50% ,-50%);
-    width: 910px;
+    width: 100%;
+    flex-direction: column;
 }
 .eb-text-area a{
     font-weight: bold;
@@ -221,34 +222,35 @@ header{
         justify-content: space-between;
         position: absolute;
         top: 0px;
-        left: 23%;
-        width: 95%;
+        left: 19%;
+        width: 92%;
         background-color: transparent;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     .navbar ul.show {
         display: flex;
+        width: 86%;
     }
     .navbar li {
         margin: 0;
         text-align: center;
     }
     .navbar ul li a{
-        font-size: 90%;
+        font-size: 88%;
     }
 
     .hamburger {
         display: block;
         font-size: 40px;
         margin-top: 10px;
-        margin-left: -5%;
+        margin-left: 2%;
     }
     .eb-text-area{
-        width: 90%;
+        width: 100%;
     }
     .eb-text-area a{
-        font-size: 320%;
+        font-size: 375%;
     }
     .eb-text-area a:hover{
         letter-spacing: 1px;
@@ -268,9 +270,15 @@ header{
 
 @media only screen and (max-width: 375px) {
     .navbar ul li a{
-        font-size: 11px;
+        font-size: 64%;
     }
-    .navbar{width: 90%;}
+    .navbar{
+        width: 100%;
+    }
+    .navbar ul.show{
+        width: 86%;
+        margin-left: -6%;
+    }
     .eb-text-area{
         font-size: 70%;
     }
@@ -288,6 +296,7 @@ header{
         font-size: 60%;
     }
    }
+
 
    @media only screen and (max-width: 1024px) {
     .navbar{

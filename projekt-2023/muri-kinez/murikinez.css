@@ -12,6 +12,9 @@ body{
     background: rgb(2,0,36);
     background: linear-gradient( rgba(198,207,223,1) 0%, rgba(218,226,237,1) 15%, rgba(158,171,182,1) 100%);
 }
+li a.murikinez{
+    color: rgb(148, 137, 137);
+}
 header{
     width: 100%;
     background-color: transparent;
@@ -240,3 +243,18 @@ h2{
         font-size: 64%;
     }
    }
+
+   @media only screen and (max-width:1024px){
+    .row{
+        flex-direction: column;
+    }
+    .col-md-4{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #row{
+        display: none;
+    }
+  
+   }
+   

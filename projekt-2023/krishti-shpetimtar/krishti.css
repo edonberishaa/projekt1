@@ -188,6 +188,9 @@ img:hover{
     .navbar{
         width: 100%;
     }
+    .navbar ul li a{
+        font-size:16px;
+    }
     #cont0{
         width: 100%;
     }

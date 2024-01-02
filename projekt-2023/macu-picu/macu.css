@@ -347,6 +347,9 @@ label.btn:hover{
     label.btn{
         font-size: 80%;
     }
+    p.card-text{
+        font-size: 12px;
+    }
     label + p{
         font-size: 90%;
     }

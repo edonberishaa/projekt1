@@ -104,7 +104,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(198,207,223,1) 0%, rg
     top: 50%;
     right: 50%;
     transform: translate(50% ,-50%);
-    width: 1000px;
+    width: 100%;
+    flex-direction: column;
 }
 .eb-text-area a{
     font-weight: bold;
@@ -311,7 +312,22 @@ label.btn:hover{
         width: 100%;
     }
     .navbar ul li a{
-        font-size: 100%;
+        font-size: 133%;
+    }
+    .eb-text-area{
+        width: 100%;
+    }
+    .row{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .row .col-md-6{
+        width: 100%;
+    }
+    .card-body p{
+        font-size: 22px;
     }
   }
   @media only screen and (max-width: 375px) {

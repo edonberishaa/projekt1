@@ -162,6 +162,7 @@ color: rgb(121, 66, 66);
     }
     .eb-section a{
         font-size: 130%;
+        transform: translate(8%);
     }
 
 

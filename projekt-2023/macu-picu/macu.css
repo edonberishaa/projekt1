@@ -357,3 +357,8 @@ label.btn:hover{
         font-size: 90%;
     }
   }
+  @media only screen and (max-width: 576px) {
+    .card-body p{
+        font-size: 16px;
+    }
+  }

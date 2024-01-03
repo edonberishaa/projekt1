@@ -307,29 +307,6 @@ label.btn:hover{
         font-family: 'Times New Roman', Times, serif;
     }
   }
-  @media only screen and (max-width: 1024px) {
-    .navbar{
-        width: 100%;
-    }
-    .navbar ul li a{
-        font-size: 104%;
-    }
-    .eb-text-area{
-        width: 100%;
-    }
-    .row{
-        width: 100%;
-    }
-    .card{
-        width: 100%;
-    }
-    .row .col-md-6{
-        width: 100%;
-    }
-    .card-body p{
-        font-size: 22px;
-    }
-  }
   @media only screen and (max-width: 375px) {
     .navbar ul li a{
         font-size: 70%;
@@ -365,3 +342,27 @@ label.btn:hover{
         font-size: 96%;
     }
   }
+  @media only screen and (max-width: 1024px) {
+    nav.navbar{
+        width: 100%;
+    }
+    .navbar ul li a{
+        font-size: 105%;
+    }
+    .eb-text-area{
+        width: 100%;
+    }
+    .row{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .row .col-md-6{
+        width: 100%;
+    }
+    .card-body p{
+        font-size: 22px;
+    }
+  }
+

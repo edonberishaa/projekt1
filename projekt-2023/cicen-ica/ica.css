@@ -184,14 +184,6 @@ h2.featurette-heading{
     font-size: 80%;
   }
 }
-@media only screen and (max-width: 1024px){
-
-.navbar{
-  width: 100%;
-}
-
-
-}
 @media only screen and (max-width: 375px){
   .navbar ul li a{
     font-size: 69%;
@@ -205,4 +197,17 @@ h2.featurette-heading{
     width: 100%;
     display: flex;
   }
+}
+@media only screen and (max-width:576px){
+  .navbar ul li a{
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1024px){
+
+.navbar{
+  width: 100%;
+}
+
+
 }

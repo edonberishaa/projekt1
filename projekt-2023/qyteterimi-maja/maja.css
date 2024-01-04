@@ -246,10 +246,13 @@ article{
         font-size: 19px;
     }*/
     .eb-box-content p {
-        font-size: 14px;
+        font-size: 19px;
     }
     p#tekst{
         font-size: 15px;
+    }
+    .jumbotron{
+        height: 30vh;
     }
     .jumbotron .btn{
         font-size: 16px;

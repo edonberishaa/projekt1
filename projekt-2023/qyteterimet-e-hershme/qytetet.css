@@ -265,9 +265,28 @@ header{
     font-size: 150%;
    }
 }
-
-
-
+   @media only screen and (max-width: 1024px) {
+    .navbar{
+        width: 100%;
+    }
+    #container0{
+        height: 85vh;
+    }
+    #container1{
+        height: 50vh;
+    }
+    .eb-footer{
+        font-size: 150%;
+    }
+   }
+@media only screen and (max-width:576px){
+    #container{
+        margin-top:50%;
+    }
+    .eb-footer{
+        font-size:100%;
+    }
+}
 @media only screen and (max-width: 375px) {
     .navbar ul li a{
         font-size: 64%;
@@ -287,7 +306,7 @@ header{
         margin-left: 5px;
     }
     #container{
-        margin-top: 92%;
+        margin-top: 67%;
     }
     #container1{
         height: 100vh;
@@ -296,27 +315,3 @@ header{
         font-size: 60%;
     }
    }
-
-
-   @media only screen and (max-width: 1024px) {
-    .navbar{
-        width: 100%;
-    }
-    #container0{
-        height: 85vh;
-    }
-    #container1{
-        height: 50vh;
-    }
-    .eb-footer{
-        font-size: 150%;
-    }
-   }
-@media only screen and (max-width:576px){
-    #container{
-        margin-top:20%;
-    }
-    .eb-footer{
-        font-size:100%;
-    }
-}

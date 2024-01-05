@@ -187,7 +187,7 @@ p .btn:hover{
         text-align: center;
     }
  .navbar ul li a{
-    font-size: 90%;
+    font-size: 96%;
  }
     .hamburger {
         display: block; /* Show the hamburger button on smaller screens */
@@ -207,8 +207,8 @@ p .btn:hover{
         letter-spacing: 1px;
     }
     .eb-text-area h5{
-        font-size: 63%;
-        margin-top: -3%;
+        font-size: 96%;
+        margin-top: -2%;
     }
     .rounded-circle{
         margin-left: 27%;

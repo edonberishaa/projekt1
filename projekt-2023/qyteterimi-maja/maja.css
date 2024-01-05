@@ -258,7 +258,7 @@ article{
         left: 10px;
     }
     .navbar ul li a{
-        font-size: 10px;
+        font-size: 9px;
     }
     .navbar ul.show{
         display: flex;

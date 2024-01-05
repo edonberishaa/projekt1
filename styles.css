@@ -8,7 +8,7 @@
 
 
 body {
-    background: url(the-great-pyramid.jpg);
+    background: url(projekt-2023/the-great-pyramid.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -113,6 +113,14 @@ color: rgb(121, 66, 66);
     background: transparent;
     display: none; /* Initially hide the hamburger button */
 }
+  @media only screen and (max-width:1024px){
+
+    .navbar{width: 100%;}
+    .navbar ul li a{
+        font-size: 150%;
+    }
+  }
+
 @media only screen and (max-width: 768px) {
     .navbar{
         width: 90%;
@@ -166,11 +174,4 @@ color: rgb(121, 66, 66);
     }
 
 
-  }
-  @media only screen and (max-width:1024px){
-
-    .navbar{width: 100%;}
-    .navbar ul li a{
-        font-size: 150%;
-    }
   }

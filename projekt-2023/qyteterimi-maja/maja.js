@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (isMenuOpen) {
           margina.style.margin = '0';
       } else {
-          margina.style.margin = '27% 0 0 0';
+          margina.style.margin = '29% 0 0 0';
       }
 
       // Update the menu state

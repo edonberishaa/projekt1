@@ -259,6 +259,9 @@ article{
     .eb-box-content p {
         font-size: 94%;
     }
+      p#tekst{
+          font-size:12px;
+      }
   }
 
 

@@ -307,33 +307,7 @@ label.btn:hover{
         font-family: 'Times New Roman', Times, serif;
     }
   }
-  @media only screen and (max-width: 375px) {
-    .navbar ul li a{
-        font-size: 70%;
-    }
-    .eb-text-area a {
-        font-size: 250%;
-    }
-    .eb-text-area h5{
-        font-size: 50%;
-    }
-
-    #photo1{
-        height: 30vh;
-    }
-    label.btn{
-        font-size: 80%;
-    }
-    p.card-text{
-        font-size: 12px;
-    }
-    label + p{
-        font-size: 90%;
-    }
-    .eb-footer{
-        font-size: 90%;
-    }
-  }
+ 
   @media only screen and (max-width: 576px) {
     .card-body p{
         font-size: 16px;
@@ -363,6 +337,33 @@ label.btn:hover{
     }
     .card-body p{
         font-size: 22px;
+    }
+  }
+ @media only screen and (max-width: 375px) {
+    .navbar ul li a{
+        font-size: 70%;
+    }
+    .eb-text-area a {
+        font-size: 250%;
+    }
+    .eb-text-area h5{
+        font-size: 50%;
+    }
+
+    #photo1{
+        height: 30vh;
+    }
+    label.btn{
+        font-size: 80%;
+    }
+    p.card-text{
+        font-size: 12px;
+    }
+    label + p{
+        font-size: 90%;
+    }
+    .eb-footer{
+        font-size: 90%;
     }
   }
 

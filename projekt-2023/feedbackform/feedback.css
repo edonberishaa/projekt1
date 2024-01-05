@@ -90,6 +90,7 @@ form .eb-textarea-field .eb-error-txt{
     }*/
     body{
         min-height: 100vh;
+        margin-top:-12%;
     }
     .eb-contact h2{
         font-size: 24px;
@@ -129,4 +130,12 @@ form .eb-textarea-field .eb-error-txt{
         width: 50%;
         margin-left: 25%;
     }
+}
+@media only screen and (max-width: 375px){
+    
+body{
+    margin-top:-13%;
+
+
+    
 }

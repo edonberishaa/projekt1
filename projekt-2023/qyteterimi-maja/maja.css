@@ -139,9 +139,39 @@ article{
         background: transparent;
         display: none; /* Initially hide the hamburger button */
       }
-      
-  
+  @media only screen and (max-width: 1024px){
+    .navbar{
+        width: 100%;
+    }
+    .navbar ul li a{
+        font-size: 15px;
+    }
+    p.lead{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+   /* p{
+        font-size: 19px;
+    }*/
+    .eb-box-content p {
+        font-size: 19px;
+    }
+    p#tekst{
+        font-size: 15px;
+    }
+    .jumbotron{
+        height: 33vh;
+    }
+    .jumbotron .btn{
+        font-size: 16px;
+    }
 
+  }
+@media only screen and (max-width:1440px){
+    .jumbotron{
+        height: 40vh;
+    }
+}
   @media only screen and (max-width: 768px) {
     .navbar{
         width: 90%;
@@ -202,7 +232,7 @@ article{
         font-size: 90%;
     }
     .eb-box-content p{
-        font-size: 75%;
+        font-size: 80%;
     }
     article {
         height: 40%;
@@ -211,39 +241,8 @@ article{
   }
 
 
-  @media only screen and (max-width: 1024px){
-    .navbar{
-        width: 100%;
-    }
-    .navbar ul li a{
-        font-size: 15px;
-    }
-    p.lead{
-        margin-left: 10px;
-        font-size: 14px;
-    }
-   /* p{
-        font-size: 19px;
-    }*/
-    .eb-box-content p {
-        font-size: 19px;
-    }
-    p#tekst{
-        font-size: 15px;
-    }
-    .jumbotron{
-        height: 33vh;
-    }
-    .jumbotron .btn{
-        font-size: 16px;
-    }
 
-  }
-@media only screen and (max-width:1440px){
-    .jumbotron{
-        height: 40vh;
-    }
-}
+
 
 @media only screen and (max-width:576px){
     .eb-box-content p{

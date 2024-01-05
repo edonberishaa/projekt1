@@ -139,6 +139,11 @@ article{
         background: transparent;
         display: none; /* Initially hide the hamburger button */
       }
+@media only screen and (max-width:1440px){
+    .jumbotron{
+        height: 40vh;
+    }
+}
   @media only screen and (max-width: 1024px){
     .navbar{
         width: 100%;
@@ -160,18 +165,14 @@ article{
         font-size: 15px;
     }
     .jumbotron{
-        height: 33vh;
+        height: 53vh;
     }
     .jumbotron .btn{
         font-size: 16px;
     }
 
   }
-@media only screen and (max-width:1440px){
-    .jumbotron{
-        height: 40vh;
-    }
-}
+
   @media only screen and (max-width: 768px) {
     .navbar{
         width: 90%;

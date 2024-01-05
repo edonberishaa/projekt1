@@ -245,6 +245,18 @@ article{
     }
 }
 
+@media only screen and (max-width:576px){
+    .eb-box-content p{
+        font-size:13px;
+    }
+    p.lead{
+        font-size:23px;
+    }
+        
+
+
+
+
 @media only screen and (max-width: 375px){
     .hamburger {
         font-size: 33px;

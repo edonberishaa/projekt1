@@ -240,7 +240,7 @@ box-shadow: 25px 14px 99px 5px rgba(19,87,20,0.75);
         width: 100%;
     }
     #container1{
-        height: 120vh;
+        height: 80vh;
     }
   }
   @media only screen and (max-width: 375px) {
@@ -249,5 +249,10 @@ box-shadow: 25px 14px 99px 5px rgba(19,87,20,0.75);
     }
     .eb-text-area a{
         font-size: 250%;
+    }
+}
+@media only screen and (max-width: 1440px){
+    #container1{
+        height:80vh;
     }
 }

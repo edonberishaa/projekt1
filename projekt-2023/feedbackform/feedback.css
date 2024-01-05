@@ -10,6 +10,8 @@ body{
    justify-content: center;
     align-items: center;
     background-color: tan;
+    height:100vh;
+    padding:13%;
  /*   min-height: 100vh;
     max-width: 100vh;*/
    /* transform: translate(50%);*/
@@ -135,7 +137,12 @@ form .eb-textarea-field .eb-error-txt{
     
 body{
     margin-top:-13%;
-
-
     
 }
+}
+    @media only screen and (max-width:1440px){
+        body{
+            padding:13%;
+            height:100vh;
+    }
+    }

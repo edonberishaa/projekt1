@@ -280,7 +280,7 @@ label.btn:hover{
         text-align: center;
     }
     .navbar ul li a{
-        font-size: 70%;
+        font-size: 95%;
     }
     .hamburger {
         display: block; /* Show the hamburger button on smaller screens */
@@ -307,15 +307,6 @@ label.btn:hover{
         font-family: 'Times New Roman', Times, serif;
     }
   }
- 
-  @media only screen and (max-width: 576px) {
-    .card-body p{
-        font-size: 16px;
-    }
-    .navbar ul li a{
-        font-size: 96%;
-    }
-  }
   @media only screen and (max-width: 1024px) {
     nav.navbar{
         width: 100%;
@@ -339,6 +330,17 @@ label.btn:hover{
         font-size: 22px;
     }
   }
+
+  @media only screen and (max-width: 576px) {
+    .card-body p{
+        font-size: 16px;
+    }
+    .navbar ul li a{
+        font-size: 96%;
+    }
+  }
+
+
  @media only screen and (max-width: 375px) {
     .navbar ul li a{
         font-size: 70%;

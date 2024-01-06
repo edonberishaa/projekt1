@@ -315,3 +315,10 @@ header{
         font-size: 60%;
     }
    }
+   @media only screen and (min-width:1440px){
+
+    #container .eb-box-container{
+        grid-template-columns: repeat(auto-fit,minmax(370px,1fr)); 
+      }
+      
+   }

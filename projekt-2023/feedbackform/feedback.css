@@ -90,11 +90,13 @@ form .eb-textarea-field .eb-error-txt{
    /* body{
         margin-top: -50px;
     }*/
-    body{
+     body{
         min-height: 100vh;
-    }
+        height: fit-content;
+     }
     .eb-contact h2{
-        font-size: 24px;
+        font-size: 20px;
+        margin-top: 20px;
     }
     .eb-contact{
         width: 100%;
